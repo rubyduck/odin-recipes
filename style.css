@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+
+h1 {
+    color: darkorange;
+    text-align: center;
+    text-shadow:2px 2px lightgrey;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#main-image {
+    width: 300px;
+    height: auto;
+}
+
+.recipe-image {
+    height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.directory {
+    list-style: none;
+    line-height: 2;
+    background-color: wheat;
+    margin: 25px 150px;
+}
+
+.recipe-image-description {
+    text-align: center;
+}
+
+.section-header,
+.list {
+    margin: 25px;
+}
+
+.section-header {
+    background-color: wheat;
+    padding: 5px 10px;
+}
+
+.ingredients {
+    list-style-type: square;
+}
+
+.steps li:not(:last-child) {
+    margin-bottom: 15px;
+}
